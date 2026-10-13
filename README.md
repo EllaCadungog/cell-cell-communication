@@ -41,11 +41,11 @@ OmniPath can be used to investigate curated signaling relationships involving WN
 
 **Selected Receiver Cell:** Osteoblast-lineage cell.
 
-**Supporting Evidence:** Published experimental research supports WNT5A binding and ROR2 activation in human osteoblastic cells. OmniPath should be checked to confirm whether the selected interaction is included in its curated records.
+**Supporting Evidence:** Published experimental research supports WNT5A binding and ROR2 activation in human osteoblastic cells. The provided OmniPath screenshot does not directly confirm this interaction, so its inclusion in the database must be verified separately.
 
 **Functional Interpretation:** WNT5A binds to an appropriate receptor complex on the receiving cell and activates intracellular signaling that can influence RUNX2 regulation and osteoblast differentiation.
 
-## Functional Interpretation
+## Functional Interpretation ##
 
 Osteoblasts can participate in local signaling through WNT5A. When WNT5A binds to an appropriate receptor complex involving ROR2 and potentially a Frizzled receptor, it can activate non-canonical Wnt signaling. Depending on the cellular context, downstream signaling may involve RhoA/ROCK and JNK pathways. These pathways can contribute to the regulation of RUNX2 and other osteogenic genes, supporting osteoblast differentiation and bone formation.
 
@@ -55,20 +55,27 @@ Osteoblasts can participate in local signaling through WNT5A. When WNT5A binds t
 
 A STRING protein association network can be generated using *Homo sapiens* as the organism, centered on ROR2 or WNT5A. Candidate proteins for investigation include WNT5A, ROR2, Frizzled receptors (FZD), Dishevelled proteins (DVL), RHOA, ROCK proteins, MAPK8/JNK1, and RUNX2.
 
-The network should be kept concise for straightforward biological interpretation. The final protein list and connections should be based on the actual STRING results rather than assuming that all candidate proteins directly interact.
+The provided STRING screenshot is centered on RUNX2 and includes proteins such as SP7, BGLAP, BMP2, CBFB, EP300, FOS, HDAC4, MSX2, SOX9, and YAP1. These proteins are associated with osteogenic regulation, but the screenshot does not establish a complete WNT5A–ROR2 signaling pathway.
+
+The final protein list and connections should be based on the actual STRING results rather than assuming that all candidate proteins directly interact.
 
 ### Enriched Pathway / Biological Process
 
 Relevant biological processes to investigate include:
 
-- Non-canonical Wnt signaling.
-- Regulation of osteoblast differentiation.
-- Osteoblast development and bone formation.
-- RUNX2-dependent transcription.
-- Rho-family GTPase signaling.
-- JNK-associated signaling.
+* Non-canonical Wnt signaling.
 
-The actual enriched pathways and statistical results should be obtained from the generated STRING network.
+* Regulation of osteoblast differentiation.
+
+* Osteoblast development and bone formation.
+
+* RUNX2-dependent transcription.
+
+* Rho-family GTPase signaling.
+
+* JNK-associated signaling.
+
+The actual enriched pathways, statistical significance, and enrichment values should be obtained from the generated STRING network before reporting them as results.
 
 ### Connecting Proteins (Receptor Activation to Cellular Response)
 
@@ -92,15 +99,15 @@ These proteins are candidate components of the pathway. Their specific relations
 
 ### Experimental Evidence and Metrics
 
-The IntAct Molecular Interaction Database can be searched for a curated interaction record involving WNT5A and ROR2. If a matching record is available, document its accession, interaction detection method, publication, and experimental evidence.
+The IntAct Molecular Interaction Database can be searched for a curated interaction record involving WNT5A and ROR2. The provided IntAct screenshot does not clearly establish a specific WNT5A–ROR2 interaction record.
 
-Do not assume an interaction score, evidence count, or accession number without checking the database. STRING functional associations do not, by themselves, prove direct physical binding.
+If a matching record is available, document its accession, interaction detection method, publication, and experimental evidence. Do not assume an interaction score, evidence count, or accession number without checking the database. STRING functional associations do not, by themselves, prove direct physical binding.
 
-### Publication and Assay Information
+### Publication and Assay Information 
 
 A relevant research study is titled *WNT5A induces homodimerization and activation of ROR2 receptor tyrosine kinase*. The study investigated WNT5A-induced ROR2 activation in human U2OS osteoblastic cells.
 
-**Nature of Interaction:** Experimental research supports WNT5A binding and activation of ROR2. The specific IntAct record and assay details must be verified from the database before submission.
+**Nature of Interaction:** Published experimental research supports WNT5A-associated ROR2 binding and activation. The specific IntAct record and assay details must be verified from the database before submission.
 
 ## Final Model and Interpretation ##
 
@@ -112,15 +119,22 @@ The biological outcome is the regulation of osteoblast differentiation and bone 
 
 Combining multiple databases helps investigate different levels of evidence. OmniPath can be used to examine curated signaling relationships, STRING identifies functional protein associations, and IntAct provides curated molecular interaction evidence when a matching record exists. Published experimental studies provide additional support for the proposed WNT5A–ROR2 signaling mechanism.
 
-Together, these resources help connect extracellular signaling with RUNX2 regulation and osteoblast differentiation.
+Together, these resources help connect extracellular signaling with RUNX2 regulation and osteoblast differentiation. The complete pathway should be presented as a proposed model unless every connection is supported by direct database records or experimental evidence.
 
 ## References and Database Links ##
 
-- **OmniPath:** https://omnipathdb.org/
-- **STRING Database:** https://string-db.org/
-- **IntAct Molecular Interaction Database:** https://www.ebi.ac.uk/intact/
-- **Human Protein Atlas:** https://www.proteinatlas.org/
-- **PubMed — WNT5A and osteogenic differentiation via ROCK:** https://pubmed.ncbi.nlm.nih.gov/20429785/
-- **PubMed — WNT5A-induced ROR2 activation:** https://pubmed.ncbi.nlm.nih.gov/18615587/
-- **PubMed Central — Noncanonical Wnt5a and osteoblastogenesis:** https://pmc.ncbi.nlm.nih.gov/articles/PMC3967152/
+* **OmniPath:** [https://omnipathdb.org/](https://omnipathdb.org/)
+
+* **STRING Database:** [https://string-db.org/](https://string-db.org/)
+
+* **IntAct Molecular Interaction Database:** [https://www.ebi.ac.uk/intact/](https://www.ebi.ac.uk/intact/)
+
+* **Human Protein Atlas:** [https://www.proteinatlas.org/](https://www.proteinatlas.org/)
+
+* **PubMed — WNT5A and osteogenic differentiation via ROCK:** [https://pubmed.ncbi.nlm.nih.gov/20429785/](https://pubmed.ncbi.nlm.nih.gov/20429785/)
+
+* **PubMed — WNT5A-induced ROR2 activation:** [https://pubmed.ncbi.nlm.nih.gov/18615587/](https://pubmed.ncbi.nlm.nih.gov/18615587/)
+
+* **PubMed Central — Noncanonical Wnt5a and osteoblastogenesis:** [https://pmc.ncbi.nlm.nih.gov/articles/PMC3967152/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3967152/)
+
 
